@@ -7,36 +7,44 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
 import javax.persistence.Table;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 import com.sun.istack.NotNull;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Size;
+
 @Data
 @NoArgsConstructor
 @ToString
 @EqualsAndHashCode
 @Entity
-@Table(name = "job_positions")
-public class JobPosition {
+@Table(name = "users")
+@Inheritance(strategy = InheritanceType.JOINED)
+public class User {
+	@Column(name = "id")
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "id")
 	private int id;
 
 	@NotBlank
-	@Size(max = 50)
-	@Column(name = "title")
-	private String title;
+	@Email
+	@Size(max = 100)
+	@Column(name = "email")
+	private String email;
+
+	@NotBlank
+	@Size(max = 100)
+	@Column(name = "password")
+	private String password;
 
 	@NotNull
 	@Column(name = "created_at", columnDefinition = "Date default CURRENT_DATE")
@@ -51,16 +59,9 @@ public class JobPosition {
 	private boolean isDeleted = false;
 
 	@Builder
-	public JobPosition(@NotBlank @Size(max = 50) final String title) {
-		this.title = title;
+	public User(@NotBlank @Email @Size(max = 100) final String email,
+			@NotBlank @Size(max = 100) final String password) {
+		this.email = email;
+		this.password = password;
 	}
-
-	@Builder
-	public JobPosition(@NotBlank @Size(max = 50) final String title, @NotNull final boolean isActive,
-			@NotNull final boolean isDeleted) {
-		this.title = title;
-		this.isActive = isActive;
-		this.isDeleted = isDeleted;
-	}
-	
 }
