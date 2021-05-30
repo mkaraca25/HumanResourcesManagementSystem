@@ -1,4 +1,4 @@
-# HRMS (Human Resource Management System)  <a href="https://www.java.com/"><img src="https://user-images.githubusercontent.com/61596919/119865901-dc426a00-bf24-11eb-9891-76824bb29082.png"></a>
+HRMS (Human Resource Management System) <a href="https://www.java.com/"><img src="https://user-images.githubusercontent.com/61596919/119865901-dc426a00-bf24-11eb-9891-76824bb29082.png"></a>
 
 Engin DEMIROG JAVABOOTCAMP projesi (https://www.kodlama.io/courses/enrolled/1332369)
 
