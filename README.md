@@ -20,9 +20,9 @@
 <li>Lombok</li>
 <li>Swagger</li>
 <li>Spring JPA/Hibernate</li>
-</ul>
+</ul></p> </div>
 </article>
-        </div></p> </div>
+        </div>
         
 Yildiz vermeyi unutmayalım.:)
 
