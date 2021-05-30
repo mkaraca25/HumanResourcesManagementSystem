@@ -1,4 +1,4 @@
-# HumanResourcesManagementSystem  ![image](https://user-images.githubusercontent.com/61596919/119865901-dc426a00-bf24-11eb-9891-76824bb29082.png)
+# HRMS (Human Resource Management System)  ![image](https://user-images.githubusercontent.com/61596919/119865901-dc426a00-bf24-11eb-9891-76824bb29082.png)
 
 Engin DEMIROG JAVABOOTCAMP projesi (https://www.kodlama.io/courses/enrolled/1332369)
 
