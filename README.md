@@ -80,7 +80,7 @@
 
 <a href=""><img src="https://user-images.githubusercontent.com/61596919/120845814-fbbb4180-c579-11eb-9e78-0ae81d770070.png"></a>
        
-</article>![
+</article>
  
 Yildiz vermeyi unutmayalım.:)
 
