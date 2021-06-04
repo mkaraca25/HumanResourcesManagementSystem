@@ -1,4 +1,4 @@
-# HRMS (Human Resource Management System) <a href="https://www.java.com/"><img src="https://user-images.githubusercontent.com/61596919/119865901-dc426a00-bf24-11eb-9891-76824bb29082.png"></a>
+###### HRMS (Human Resource Management System) <a href="https://www.java.com/"><img src="https://user-images.githubusercontent.com/61596919/119865901-dc426a00-bf24-11eb-9891-76824bb29082.png"></a>
 
 <div align="center"><p><a href="https://www.kodlama.io/courses/enrolled/1332369" link="black" alink="green" vlink="red" target="_blank">Engin_DEMIROG_JAVABOOTCAMP_PROJECT</a></p> </div>
 
@@ -77,8 +77,10 @@
 <h3><a id="user-content-req-13--bir-adaya-ait-tüm-cv-bilgisi-görüntülenebilmelidir" class="anchor" aria-hidden="true" href="#req-13--bir-adaya-ait-tüm-cv-bilgisi-görüntülenebilmelidir"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><span>Req 13 : Bir adaya ait tüm CV bilgisi görüntülenebilmelidir.</span></h3>
 
  <h3><a id="user-content-kurumsal-mimari" class="anchor" aria-hidden="true" href="#kurumsal-mimari"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><span>Kurumsal Mimari</span></h3>
+
+<img src=https://user-images.githubusercontent.com/61596919/120845814-fbbb4180-c579-11eb-9e78-0ae81d770070.png)>
        
-</article>![image](https://user-images.githubusercontent.com/61596919/120845582-b565e280-c579-11eb-95f9-9e219faf8f77.png)
+</article>![
  
 Yildiz vermeyi unutmayalım.:)
 
