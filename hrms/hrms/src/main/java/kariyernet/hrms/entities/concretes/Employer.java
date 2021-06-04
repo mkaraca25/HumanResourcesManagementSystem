@@ -1,10 +1,8 @@
 package kariyernet.hrms.entities.concretes;
 
 import javax.persistence.Column;
+
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
 import javax.validation.constraints.Email;
@@ -19,6 +17,7 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Data
+@AllArgsConstructor
 @NoArgsConstructor
 @ToString
 @EqualsAndHashCode

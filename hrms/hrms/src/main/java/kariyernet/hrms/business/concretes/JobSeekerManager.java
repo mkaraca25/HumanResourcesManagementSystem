@@ -66,7 +66,7 @@ public class JobSeekerManager implements JobSeekerService {
 	}
 
 	@Override
-	public DataResult<JobSeeker> getById(final int id) {
+	public DataResult<JobSeeker> getById(final Integer id) {
 		final Optional<JobSeeker> jobSeeker = jobSeekerDao.findById(id);
 
 		if (jobSeeker.isPresent())

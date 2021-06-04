@@ -41,20 +41,24 @@ public class User {
 	@Column(name = "email")
 	private String email;
 
-	@NotBlank
+	@NotNull
 	@Size(max = 100)
 	@Column(name = "password")
 	private String password;
-
 	@NotNull
+	@Size(max = 100)
+	@Column(name = "password_again")
+	private String password_again;
+
+	
 	@Column(name = "created_at", columnDefinition = "Date default CURRENT_DATE")
 	private final LocalDateTime createdAt = LocalDateTime.now();
 
-	@NotNull
+	
 	@Column(name = "is_active", columnDefinition = "boolean default true")
 	private boolean isActive = true;
 
-	@NotNull
+	
 	@Column(name = "is_deleted", columnDefinition = "boolean default false")
 	private boolean isDeleted = false;
 

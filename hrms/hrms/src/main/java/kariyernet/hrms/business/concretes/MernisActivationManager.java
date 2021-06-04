@@ -1,6 +1,7 @@
 package kariyernet.hrms.business.concretes;
 
 import java.util.List;
+
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -53,7 +54,7 @@ public class MernisActivationManager implements MernisActivationService {
 	}
 
 	@Override
-	public DataResult<MernisActivation> getById(final int id) {
+	public DataResult<MernisActivation> getById(final Integer id) {
 		final Optional<MernisActivation> mernisActivation = mernisActivationDao.findById(id);
 
 		if (mernisActivation.isPresent())

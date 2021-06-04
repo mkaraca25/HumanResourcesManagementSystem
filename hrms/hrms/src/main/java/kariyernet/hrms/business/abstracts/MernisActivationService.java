@@ -6,6 +6,6 @@ import kariyernet.hrms.core.utilities.result.Result;
 import kariyernet.hrms.entities.concretes.MernisActivation;
 
 
-public interface MernisActivationService extends BaseService<MernisActivation> {
+public interface MernisActivationService extends BaseService<MernisActivation, Integer> {
 	Result check(PersonForValidateFromMernisService personForValidateFromMernisService);
 }

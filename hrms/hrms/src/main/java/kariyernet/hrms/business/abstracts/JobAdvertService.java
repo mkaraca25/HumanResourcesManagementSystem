@@ -8,7 +8,7 @@ import kariyernet.hrms.core.utilities.result.Result;
 import kariyernet.hrms.entities.concretes.JobAdvert;
 import kariyernet.hrms.entities.dto.JobAdvertForListDto;
 
-public interface JobAdvertService  extends BaseService<JobAdvert> {
+public interface JobAdvertService  extends BaseService<JobAdvert, Integer> {
 	Result disableById(int id);
 
 	DataResult<List<JobAdvertForListDto>> getAllByIsActiveAndEmployer_CompanyNameForList(boolean isActive,

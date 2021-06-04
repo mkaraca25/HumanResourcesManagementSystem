@@ -49,4 +49,12 @@ public class CitysController {
 
 		return ResponseEntity.ok(result);
 	}
+	@GetMapping("/getAllByPage")
+	DataResult<List<City>> getAll(int pageNo, int pageSize){
+		return this.cityService.getAll(pageNo, pageSize);
+	}
+	@GetMapping("/getAllAsc")
+	public DataResult<List<City>> getAllSorted() {
+		return this.cityService.getAllSorted();
+	}
 }

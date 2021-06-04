@@ -31,6 +31,7 @@ public class UserManager implements UserService {
 		return new SuccessResult(Messages.userAdded);
 	}
 
+	
 	@Override
 	public Result delete(final User user) {
 		userDao.delete(user);
@@ -56,7 +57,7 @@ public class UserManager implements UserService {
 	}
 
 	@Override
-	public DataResult<User> getById(final int id) {
+	public DataResult<User> getById(final Integer id) {
 		final Optional<User> user = userDao.findById(id);
 
 		if (user.isPresent())

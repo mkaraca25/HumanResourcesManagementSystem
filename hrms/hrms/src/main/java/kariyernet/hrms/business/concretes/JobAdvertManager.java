@@ -29,14 +29,14 @@ public class JobAdvertManager implements JobAdvertService {
 	public Result add(final JobAdvert jobAdvert) {
 		jobAdvertDao.save(jobAdvert);
 
-		return new SuccessResult(Messages.JobAdvertAdded);
+		return new SuccessResult(Messages.jobAdvertAdded);
 	}
 
 	@Override
 	public Result delete(final JobAdvert jobAdvert) {
 		jobAdvertDao.delete(jobAdvert);
 
-		return new SuccessResult(Messages.JobAdvertDeleted);
+		return new SuccessResult(Messages.jobAdvertDeleted);
 	}
 
 	@Override
@@ -44,7 +44,7 @@ public class JobAdvertManager implements JobAdvertService {
 		final Optional<JobAdvert> jobAdvert = jobAdvertDao.findById(id);
 
 		if (jobAdvert.isPresent())
-			return new ErrorDataResult<JobAdvert>(Messages.JobAdvertNotFound);
+			return new ErrorDataResult<JobAdvert>(Messages.jobAdvertNotFound);
 
 		jobAdvert.get().setActive(false);
 
@@ -85,11 +85,11 @@ public class JobAdvertManager implements JobAdvertService {
 	}
 
 	@Override
-	public DataResult<JobAdvert> getById(final int id) {
+	public DataResult<JobAdvert> getById(final Integer id) {
 		final Optional<JobAdvert> jobAdvert = jobAdvertDao.findById(id);
 
 		if (jobAdvert.isPresent())
-			return new ErrorDataResult<JobAdvert>(Messages.JobAdvertNotFound);
+			return new ErrorDataResult<JobAdvert>(Messages.jobAdvertNotFound);
 
 		return new SuccessDataResult<JobAdvert>(jobAdvert.get());
 	}
@@ -98,7 +98,7 @@ public class JobAdvertManager implements JobAdvertService {
 	public Result update(final JobAdvert jobAdvert) {
 		jobAdvertDao.save(jobAdvert);
 
-		return new SuccessResult(Messages.JobAdvertUpdated);
+		return new SuccessResult(Messages.jobAdvertUpdated);
 	}
 
 }

@@ -1,11 +1,11 @@
 package kariyernet.hrms.business.concretes;
 
 import java.util.List;
+
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import kariyernet.hrms.business.Messages;
 import kariyernet.hrms.business.abstracts.CityService;
 import kariyernet.hrms.core.utilities.result.DataResult;
@@ -27,13 +27,13 @@ public class CityManager implements CityService {
 	@Override
 	public Result add(final City city) {
 		cityDao.save(city);
-		return new SuccessResult(Messages.CityAdded);
+		return new SuccessResult(Messages.cityAdded);
 	}
 
 	@Override
 	public Result delete(final City city) {
 		cityDao.delete(city);
-		return new SuccessResult(Messages.CityDeleted);
+		return new SuccessResult(Messages.cityDeleted);
 	}
 
 	@Override
@@ -42,12 +42,13 @@ public class CityManager implements CityService {
 		return new SuccessDataResult<List<City>>(cities);
 	}
 
+	
 	@Override
-	public DataResult<City> getById(final int id) {
-		final Optional<City> city = cityDao.findById((short) id);
+	public DataResult<City> getById(final Short id) {
+		final Optional<City> city = cityDao.findById(id);
 
 		if (city.isPresent())
-			return new ErrorDataResult<City>(Messages.CityNotFound);
+			return new ErrorDataResult<City>(Messages.cityNotFound);
 
 		return new SuccessDataResult<City>(city.get());
 	}
@@ -57,7 +58,7 @@ public class CityManager implements CityService {
 		final Optional<City> city = cityDao.findByName(name);
 
 		if (city.isPresent())
-			return new ErrorDataResult<City>(Messages.CityNotFound);
+			return new ErrorDataResult<City>(Messages.cityNotFound);
 
 		return new SuccessDataResult<City>(city.get());
 	}
@@ -72,7 +73,24 @@ public class CityManager implements CityService {
 	@Override
 	public Result update(final City city) {
 		cityDao.save(city);
-		return new SuccessResult(Messages.CityUpdated);
+		return new SuccessResult(Messages.cityUpdated);
 	}
 
+	@Override
+	public DataResult<City> getById(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public DataResult<List<City>> getAllSorted() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public DataResult<List<City>> getAll(int pageNo, int pageSize) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
