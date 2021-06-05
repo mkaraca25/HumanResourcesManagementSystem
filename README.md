@@ -1,8 +1,9 @@
 # HRMS (Human Resource Management System) <a href="https://www.java.com/"><img src="https://user-images.githubusercontent.com/61596919/119865901-dc426a00-bf24-11eb-9891-76824bb29082.png"></a>
 
-<img align="center"  src="https://user-images.githubusercontent.com/61596919/120897516-48ad1f80-c62f-11eb-9b59-c554c1686171.png">
+<img align="center"  src="">
+<div align="center"><p><a href="https://user-images.githubusercontent.com/61596919/120897516-48ad1f80-c62f-11eb-9b59-c554c1686171.png"</a></p> </div>
 
-<div ><p><a href="https://www.kodlama.io/courses/enrolled/1332369" link="black" alink="green" vlink="red" target="_blank">Engin_DEMIROG_JAVABOOTCAMP_PROJECT</a></p> </div>
+<div align="center"><p><a href="https://www.kodlama.io/courses/enrolled/1332369" link="black" alink="green" vlink="red" target="_blank">Engin_DEMIROG_JAVABOOTCAMP_PROJECT</a></p> </div>
 
 
 <div align="center"><p><p><a href="https://www.java.com/" rel="nofollow"><img src="https://camo.githubusercontent.com/771cc18a712bf9edb0925a86164c34b0d803c4d9177dd4467eff7b777109c723/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176612d4544384230303f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661266c6f676f436f6c6f723d7768697465" alt="Java" data-canonical-src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&amp;logo=java&amp;logoColor=white" style="max-width:100%;"></a>
