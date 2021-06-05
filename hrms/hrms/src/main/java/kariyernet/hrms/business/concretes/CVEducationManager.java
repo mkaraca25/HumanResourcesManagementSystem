@@ -5,6 +5,7 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort.Direction;
+import org.springframework.stereotype.Service;
 
 import kariyernet.hrms.business.abstracts.CVEducationService;
 import kariyernet.hrms.core.utilities.result.DataResult;
@@ -14,7 +15,7 @@ import kariyernet.hrms.core.utilities.result.SuccessDataResult;
 import kariyernet.hrms.core.utilities.result.SuccessResult;
 import kariyernet.hrms.dataAccess.abstracts.CVEducationDao;
 import kariyernet.hrms.entities.concretes.CVEducation;
-
+@Service
 public class CVEducationManager implements CVEducationService {
 	private CVEducationDao CVEducationDao;
 
