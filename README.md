@@ -1,4 +1,4 @@
-##### HRMS (Human Resource Management System) <a href="https://www.java.com/"><img src="https://user-images.githubusercontent.com/61596919/119865901-dc426a00-bf24-11eb-9891-76824bb29082.png"></a>
+# HRMS (Human Resource Management System) <a href="https://www.java.com/"><img src="https://user-images.githubusercontent.com/61596919/119865901-dc426a00-bf24-11eb-9891-76824bb29082.png"></a>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/61596919/120897516-48ad1f80-c62f-11eb-9b59-c554c1686171.png"/></p>
 
