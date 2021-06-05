@@ -21,7 +21,7 @@ import kariyernet.hrms.entities.concretes.JobAdvert;
 import kariyernet.hrms.entities.dto.JobAdvertForListDto;
 
 @RestController
-@RequestMapping("/api/jobadverts")
+@RequestMapping("/hrms/api/jobadverts")
 public class JobAdvertsController {
 	private JobAdvertService jobAdvertService;
 

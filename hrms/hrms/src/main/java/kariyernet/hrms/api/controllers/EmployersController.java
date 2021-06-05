@@ -20,7 +20,7 @@ import kariyernet.hrms.entities.concretes.Employer;
 import kariyernet.hrms.entities.dto.EmployerForRegisterDto;
 
 @RestController
-@RequestMapping("/api/employers")
+@RequestMapping("/hrms/api/employers")
 public class EmployersController {
 	private final EmployerService employerService;
 

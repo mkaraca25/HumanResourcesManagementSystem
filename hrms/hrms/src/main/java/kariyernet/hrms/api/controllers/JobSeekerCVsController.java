@@ -19,7 +19,7 @@ import kariyernet.hrms.core.utilities.result.Result;
 import kariyernet.hrms.entities.concretes.JobSeekerCV;
 
 @RestController
-@RequestMapping("/api/jobseekers/cvs")
+@RequestMapping("/hrms/api/jobseekers/cvs")
 public class JobSeekerCVsController {
 	private JobSeekerCVService jobSeekerCVService;
 

@@ -14,7 +14,7 @@ import kariyernet.hrms.core.utilities.result.DataResult;
 import kariyernet.hrms.entities.concretes.Language;
 
 @RestController
-@RequestMapping("/api/languages")
+@RequestMapping("/hrms/api/languages")
 public class LanguagesController {
 	private LanguageService languageService;
 

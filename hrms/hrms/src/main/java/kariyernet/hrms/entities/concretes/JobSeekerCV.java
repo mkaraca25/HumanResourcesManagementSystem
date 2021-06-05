@@ -54,25 +54,25 @@ public class JobSeekerCV {
 
 	@JsonIgnore()
 	@OneToMany(mappedBy = "jobSeekerCV")
-	private List<JobSeekerCVImage> images;
+	private List<CVImage> images;
 
 	@JsonIgnore()
 	@OneToMany(mappedBy = "jobSeekerCV")
-	private List<JobSeekerCVWebSite> webSites;
+	private List<CVWebSite> webSites;
 
 	@JsonIgnore()
 	@OneToMany(mappedBy = "jobSeekerCV")
-	private List<JobSeekerCVEducation> educations;
+	private List<CVEducation> educations;
 
 	@JsonIgnore()
 	@OneToMany(mappedBy = "jobSeekerCV")
-	private List<JobSeekerCVExperience> experiences;
+	private List<CVExperience> experiences;
 
 	@JsonIgnore()
 	@OneToMany(mappedBy = "jobSeekerCV")
-	private List<JobSeekerCVSkill> skills;
+	private List<CVSkill> skills;
 
 	@JsonIgnore()
 	@OneToMany(mappedBy = "jobSeekerCV")
-	private List<JobSeekerCVLanguage> languages;
+	private List<CVLanguage> languages;
 }

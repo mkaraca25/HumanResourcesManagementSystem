@@ -14,7 +14,7 @@ import kariyernet.hrms.core.utilities.result.Result;
 import kariyernet.hrms.entities.dto.EmailActivationForVerifyDto;
 
 @RestController
-@RequestMapping("/api/emailactivations")
+@RequestMapping("/hrms/api/emailactivations")
 public class EmailActivationsController {
 	private final EmailActivationService emailActivationService;
 

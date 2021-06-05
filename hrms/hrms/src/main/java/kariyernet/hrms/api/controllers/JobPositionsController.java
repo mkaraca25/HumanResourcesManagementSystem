@@ -18,7 +18,7 @@ import kariyernet.hrms.core.utilities.result.DataResult;
 import kariyernet.hrms.core.utilities.result.Result;
 import kariyernet.hrms.entities.concretes.JobPosition;
 @RestController
-@RequestMapping("/api/jobpositions")
+@RequestMapping("/hrms/api/jobpositions")
 public class JobPositionsController {
 	private final JobPositionService jobPositionService;
 

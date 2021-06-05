@@ -16,7 +16,7 @@ import kariyernet.hrms.core.utilities.result.Result;
 
 
 @RestController
-@RequestMapping("/api/users")
+@RequestMapping("/hrms/api/users")
 public class UsersController {
 	private final UserService userService;
 

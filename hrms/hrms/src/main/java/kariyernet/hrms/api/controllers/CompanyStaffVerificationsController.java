@@ -14,7 +14,7 @@ import kariyernet.hrms.business.abstracts.CompanyStaffVerificationService;
 import kariyernet.hrms.core.utilities.result.Result;
 
 @RestController
-@RequestMapping("/api/companystaffverifications")
+@RequestMapping("/hrms/api/companystaffverifications")
 public class CompanyStaffVerificationsController {
 	private final CompanyStaffVerificationService companyStaffVerificationService;
 

@@ -13,7 +13,7 @@ import kariyernet.hrms.core.utilities.result.DataResult;
 import kariyernet.hrms.entities.concretes.City;
 
 @RestController
-@RequestMapping("/api/cities")
+@RequestMapping("/hrms/api/cities")
 public class CitysController {
 	private CityService cityService;
 

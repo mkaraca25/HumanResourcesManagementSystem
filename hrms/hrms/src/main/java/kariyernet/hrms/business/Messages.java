@@ -63,45 +63,45 @@ public class Messages {
 	public static String jobAdvertDeleted = "Job Advert has deleted.";
 	public static String jobAdvertNotFound = "Job Advert not found.";
 
-	public static String jobSeekerCVEducationAdded = "Job Seeker CV Education has added.";
-	public static String jobSeekerCVEducationUpdated = "Job Seeker CV Education has updated.";
-	public static String jobSeekerCVEducationDeleted = "Job Seeker CV Education has deleted.";
-	public static String jobSeekerCVEducationNotFound = "Job Seeker CV Education not found.";
+	public static String CVEducationAdded = "Job Seeker CV Education has added.";
+	public static String CVEducationUpdated = "Job Seeker CV Education has updated.";
+	public static String CVEducationDeleted = "Job Seeker CV Education has deleted.";
+	public static String CVEducationNotFound = "Job Seeker CV Education not found.";
 
-	public static String jobSeekerCVExperienceAdded = "Job Seeker CV Experience has added.";
-	public static String jobSeekerCVExperienceUpdated = "Job Seeker CV Experience has updated.";
-	public static String jobSeekerCVExperienceDeleted = "Job Seeker CV Experience has deleted.";
-	public static String jobSeekerCVExperienceNotFound = "Job Seeker CV Experience not found.";
+	public static String CVExperienceAdded = "Job Seeker CV Experience has added.";
+	public static String CVExperienceUpdated = "Job Seeker CV Experience has updated.";
+	public static String CVExperienceDeleted = "Job Seeker CV Experience has deleted.";
+	public static String CVExperienceNotFound = "Job Seeker CV Experience not found.";
 
 	public static String languageAdded = "Language has added.";
 	public static String languageUpdated = "Language has updated.";
 	public static String languageDeleted = "Language has deleted.";
 	public static String languageNotFound = "Language not found.";
 
-	public static String jobSeekerCVLanguageAdded = "Job Seeker CV Language has added.";
-	public static String jobSeekerCVLanguageUpdated = "Job Seeker CV Language has updated.";
-	public static String jobSeekerCVLanguageDeleted = "Job Seeker CV Language has deleted.";
-	public static String jobSeekerCVLanguageNotFound = "Job Seeker CV Language not found.";
+	public static String CVLanguageAdded = "Job Seeker CV Language has added.";
+	public static String CVLanguageUpdated = "Job Seeker CV Language has updated.";
+	public static String CVLanguageDeleted = "Job Seeker CV Language has deleted.";
+	public static String CVLanguageNotFound = "Job Seeker CV Language not found.";
 
-	public static String jobSeekerCVImageAdded = "Job Seeker CV Image has added.";
-	public static String jobSeekerCVImageUpdated = "Job Seeker CV Image has updated.";
-	public static String jobSeekerCVImageDeleted = "Job Seeker CV Image has deleted.";
-	public static String jobSeekerCVImageNotFound = "Job Seeker CV Image not found.";
+	public static String CVImageAdded = "Job Seeker CV Image has added.";
+	public static String CVImageUpdated = "Job Seeker CV Image has updated.";
+	public static String CVImageDeleted = "Job Seeker CV Image has deleted.";
+	public static String CVImageNotFound = "Job Seeker CV Image not found.";
 
 	public static String webSiteAdded = "Web Site has added.";
 	public static String webSiteUpdated = "Web Site has updated.";
 	public static String webSiteDeleted = "Web Site has deleted.";
 	public static String webSiteNotFound = "Web Site not found.";
 
-	public static String jobSeekerCVWebSiteAdded = "Job Seeker CV Web Site has added.";
-	public static String jobSeekerCVWebSiteUpdated = "Job Seeker CV Web Site has updated.";
-	public static String jobSeekerCVWebSiteDeleted = "Job Seeker CV Web Site has deleted.";
-	public static String jobSeekerCVWebSiteNotFound = "Job Seeker CV Web Site not found.";
+	public static String CVWebSiteAdded = "Job Seeker CV Web Site has added.";
+	public static String CVWebSiteUpdated = "Job Seeker CV Web Site has updated.";
+	public static String CVWebSiteDeleted = "Job Seeker CV Web Site has deleted.";
+	public static String CVWebSiteNotFound = "Job Seeker CV Web Site not found.";
 
-	public static String jobSeekerCVSkillAdded = "Job Seeker CV Skill has added.";
-	public static String jobSeekerCVSkillUpdated = "Job Seeker CV Skill has updated.";
-	public static String jobSeekerCVSkillDeleted = "Job Seeker CV Skill has deleted.";
-	public static String jobSeekerCVSkillNotFound = "Job Seeker CV Skill not found.";
+	public static String CVSkillAdded = "Job Seeker CV Skill has added.";
+	public static String CVSkillUpdated = "Job Seeker CV Skill has updated.";
+	public static String CVSkillDeleted = "Job Seeker CV Skill has deleted.";
+	public static String CVSkillNotFound = "Job Seeker CV Skill not found.";
 
 	public static String jobSeekerCVAdded = "Job Seeker CV has added.";
 	public static String jobSeekerCVUpdated = "Job Seeker CV has updated.";

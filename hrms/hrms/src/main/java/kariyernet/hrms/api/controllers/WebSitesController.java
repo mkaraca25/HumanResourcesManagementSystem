@@ -19,7 +19,7 @@ import kariyernet.hrms.core.utilities.result.Result;
 import kariyernet.hrms.entities.concretes.WebSite;
 
 @RestController
-@RequestMapping("/api/websites")
+@RequestMapping("/hrms/api/websites")
 public class WebSitesController {
 	private WebSiteService webSiteService;
 

@@ -20,7 +20,7 @@ import kariyernet.hrms.entities.concretes.JobSeeker;
 import kariyernet.hrms.entities.dto.JobSeekerForRegisterDto;
 
 @RestController
-@RequestMapping("/api/jobseekers")
+@RequestMapping("/hrms/api/jobseekers")
 public class JobSeekersController {
 	private final JobSeekerService jobSeekerService;
 
